@@ -1,6 +1,6 @@
-# Todo List Application
+# Todo List
 
-A simple Todo List application built with HTML, CSS, and JavaScript that allows users to add, check, and delete tasks. The tasks are stored in the browser's `localStorage` so that the list persists even after the page is reloaded.
+A simple Todo List application is built with HTML, CSS, and JavaScript that allows users to add, check, and delete tasks. The tasks are stored in the browser's `localStorage` so that the list persists even after the page is reloaded.
 
 ## Features
 
