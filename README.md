@@ -19,9 +19,9 @@ You need a web browser to run this application.
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Omowunmikamil/To-do.git
-   ```
+```bash
+    git clone https://github.com/Omowunmikamil/To-do.git
+```
 
 2. Navigate to the project directory:
 
@@ -29,15 +29,16 @@ You need a web browser to run this application.
   cd todo-list
 ```
 
-3. Open index.html in your web browser.
+3. Open index.html in your web browser:
 
-### Usage
+```Usage
 
 1. Open the application in your web browser.
 2. Enter a task in the input field and click the "Add" button or press Enter to add the task to the list.
 3. Click on the checkbox next to a task to mark it as complete or incomplete.
 4. Click on the trash icon to delete a task from the list.
 5. The tasks will be saved automatically and will persist even if you reload the page.
+```
 
 ## Code Structure
 
