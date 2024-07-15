@@ -31,7 +31,8 @@ You need a web browser to run this application.
 
 3. Open index.html in your web browser:
 
-```Usage
+```bash
+Usage
 
 1. Open the application in your web browser.
 2. Enter a task in the input field and click the "Add" button or press Enter to add the task to the list.
