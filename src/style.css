@@ -74,6 +74,10 @@ li button {
   color: #fff;
   cursor: pointer;
 }
+
+li span {
+  font-size: 20px;
+}
 .fa-square {
   color: transparent;
   background-color: transparent;

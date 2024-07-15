@@ -58,7 +58,7 @@ function checkTask(event) {
   if (isChecked) {
     button.innerHTML = `<i class="fa fa-check"></i>`; // Change to checked icon
   } else {
-    button.innerHTML = `<i class="fa fa-square-o"></i>`; // Change to unchecked icon
+    button.innerHTML = `<i class="fa fa-square"></i>`; // Change to unchecked icon
   }
 
   saveTaskHistory(); // Save the updated task list to localStorage
