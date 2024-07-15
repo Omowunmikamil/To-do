@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>To-do List</h1>
+      <div class="container">
+        <form action="" id="taskForm">
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter a task..."
+            required
+          />
+          <button type="submit" id="addTask" aria-label="Add">
+            <i class="fas fa-plus"></i>
+          </button>
+        </form>
+        <ul id="taskList">
+          <!-- Tasks will be dynamically generated here -->
+          <!--li>
+            <button class="checkbox" aria-label="Add">
+              <i class="fa fa-check"></i>
+            </button>
+            <span></span>
+            <button class="delete" aria-label="Add">
+              <i class="fas fa-trash"></i>
+            </button>
+          </li-->
+        </ul>
+      </div>
+    </main>
+    <script src="./src/script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
